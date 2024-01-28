@@ -1,4 +1,4 @@
-Code to read data from FDA, focussed on Animal drugs to understand the side effects of each medication.
+Code to read data from FDA, focussed on Animal drugs to understand the side effects and adverse reactions for a medication.
 
 ![image](https://github.com/SathvikKothi/AnimalRX/assets/52260009/9b401917-0a09-47f5-a8c2-0e2a574019d4)
 
