@@ -82,7 +82,7 @@ session = Session()
 
 # Load JSON data
 with open(
-    "/Users/ramanakothi/langchain/learn_lang2/food/enforcement/food-enforcement-0001-of-0001.json"
+    "./langchain/learn_lang2/food/enforcement/food-enforcement-0001-of-0001.json"
 ) as reader:
     data = json.load(reader)
 model = FoodEnforcement(results=data["results"])  # Access nested results
