@@ -535,6 +535,6 @@ def drug_label_func(json_path, conn_string, recreate_flag, table_name):
 
 table_name = "drug_label"
 load_process = DrugLabelClass()
-dir_path = "/Users/ramanakothi/AnimalRx/Data"
+dir_path = "./AnimalRx/Data"
 conn_string = "postgresql://clinicaltrials:clinicaltrials@localhost:5432/postgres"
 load_process.load_full_data(dir_path, conn_string, table_name, recreate_flag="Y")
