@@ -229,9 +229,9 @@ class DrugNDCClass:
 
 
 load_process = DrugNDCClass()
-dir_path = "/Users/ramanakothi/AnimalRx/Data/"
+dir_path = "./AnimalRx/Data/"
 json_path = (
-    "/Users/ramanakothi/AnimalRx/Data/openfda/drug/ndc/drug-ndc-0001-of-0001.json"
+    "./AnimalRx/Data/openfda/drug/ndc/drug-ndc-0001-of-0001.json"
 )
 conn_string = "postgresql://clinicaltrials:clinicaltrials@localhost:5432/postgres"
 load_process.create_table(conn_string)
