@@ -315,8 +315,8 @@ class AnimalEventClass:
 
 
 load_process = AnimalEventClass()
-dir_path = "/Users/ramanakothi/langchain/learn_lang2/"
-json_path = "/Users/ramanakothi/langchain/learn_lang2/openfda/animalandveterinary/event/2023q2/animalandveterinary-event-0001-of-0001.json"
+dir_path = "./langchain/learn_lang2/"
+json_path = "./langchain/learn_lang2/openfda/animalandveterinary/event/2023q2/animalandveterinary-event-0001-of-0001.json"
 conn_string = "postgresql://clinicaltrials:clinicaltrials@localhost:5432/postgres"
 load_process.create_table(conn_string)
 # animal_event_func(json_path,conn_string)
